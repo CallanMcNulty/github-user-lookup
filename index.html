@@ -9,16 +9,17 @@
   </head>
   <body>
     <div class="container">
+      <h1>GitHub User Lookup</h1>
+      <hr>
       <form class="form-inline" id="username-form">
         <label for="username">Enter a GitHub user name:</label>
         <input class="form-control" type="text" id="username" value="">
         <button class="btn btn-primary" type="submit">Search</button>
       </form>
-    </div>
-    <div>
-      <ul id="repos">
-
-      </ul>
+      <p id="error"></p>
+      <hr>
+      <div id="profile-info"></div>
+      <div id="repo-list"></div>
     </div>
   </body>
 </html>
