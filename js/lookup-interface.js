@@ -27,11 +27,10 @@ displayUserInfo = function(user) {
     "<a href='"+user.html_url+"'>View on GitHub</a><br><br>"+
     "<img src='"+user.avatar_url+"'></img>"+
     (user.bio?"<p>"+user.bio+"</p>":"")+
-    "<ul>"+
-      (user.location?"<li><strong>Location: </strong>"+user.location+"</li>":"")+
-      (user.email?"<li><strong>Email: </strong>"+user.email+"</li>":"")+
-      (user.company?"<li><strong>Company: </strong>"+user.company+"</li>":"")+
-    "</ul>"+
+    "<br><br>"+
+      (user.location?"<p><strong>Location: </strong>"+user.location+"</p>":"")+
+      (user.email?"<p><strong>Email: </strong>"+user.email+"</p>":"")+
+      (user.company?"<p><strong>Company: </strong>"+user.company+"</p>":"")+
     "<hr>"
   );
 };

@@ -3,22 +3,23 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/styles.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>GitHub Lookup</title>
   </head>
   <body>
     <div class="container">
-      <h1>GitHub User Lookup</h1>
+      <h1 class="text-center">GitHub User Lookup</h1>
       <hr>
-      <form class="form-inline" id="username-form">
+      <form class="form-inline text-center" id="username-form">
         <label for="username">Enter a GitHub user name:</label>
         <input class="form-control" type="text" id="username" value="">
         <button class="btn btn-primary" type="submit">Search</button>
       </form>
       <p id="error"></p>
       <hr>
-      <div id="profile-info"></div>
+      <div class="text-center" id="profile-info"></div>
       <div id="repo-list"></div>
     </div>
   </body>

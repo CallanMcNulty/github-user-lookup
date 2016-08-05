@@ -1,0 +1,16 @@
+$blue-gray: #6787A8;
+
+body {
+  background-color: $blue-gray;
+}
+.container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+}
+#profile-info {
+  img {
+    max-width: 200px;
+    border-radius: 15px;
+  }
+}
