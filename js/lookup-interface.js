@@ -14,7 +14,7 @@ displayRepoList = function(repos) {
     );
     repos.forEach(function(repo) {
       $("#repos").append("<li><a href='"+repo.svn_url+"'>"+repo.name+"</a></li>");
-      if(repo.description!=null && repo.description!="") {
+      if(repo.description!==null && repo.description!=="") {
         $("#repos").append("<ul><li>"+repo.description+"</li></ul>");
       }
     });
