@@ -6,5 +6,6 @@ exports.getRepos = function(username, displayRepoList){
     displayRepoList(response);
   }).fail(function(error){
     console.log(error.responseJSON.message);
+    displayRepoList(error.responseJSON);
   });
 };
